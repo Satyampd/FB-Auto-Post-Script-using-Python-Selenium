@@ -14,23 +14,16 @@ driver.get('https://www.facebook.com/login.php?login_attempt=1&lwv=110')
 print("Opened facebook...")
 email = driver.find_element_by_xpath("//input[@id='email' or @name='email']")
 email.send_keys('Email')
-print("Email Id entered...")
+print("email entered...")
 password = driver.find_element_by_xpath("//input[@id='pass']")
 password.send_keys('Password')
 print("Password entered...")
 button = driver.find_element_by_xpath("//button[@id='loginbutton']")
 button.click()
-print("FB opened")
-statusbox = driver.find_element_by_xpath("//textarea[@name='xhpc_message']")
-statusbox.send_keys("Bot is typing here");
+print("facebook opened")
+status= driver.find_element_by_xpath("//textarea[@name='xhpc_message']")
+status.send_keys("Bot is typing here");
 print("Status trying")
 postbutton = driver.find_element_by_xpath("//button[contains(.,'Post')]")
 postbutton.click()
 print("post done")
-
-
-
-
-
-
-
