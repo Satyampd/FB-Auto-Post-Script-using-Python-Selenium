@@ -6,3 +6,6 @@ For running this on your PC you will need
 (Write "pip install selenium" on Windows command prompt to install Selenium.)
 2. FireFox Browers
 3. FireFox Driver(geckodriver)
+ 
+ 
+ Full Read at: http://bitsdroid.com/facebook-bot/
